@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-05T19:07:07 AST" name="Booking  Suite" finished-at="2022-10-05T19:07:13 AST" duration-ms="5878">
+  <suite started-at="2022-10-05T20:04:10 AST" name="Booking  Suite" finished-at="2022-10-05T20:04:18 AST" duration-ms="8395">
     <groups>
     </groups>
-    <test started-at="2022-10-05T19:07:07 AST" name=" test Booking site" finished-at="2022-10-05T19:07:13 AST" duration-ms="5878">
+    <test started-at="2022-10-05T20:04:10 AST" name=" test Booking site" finished-at="2022-10-05T20:04:18 AST" duration-ms="8395">
       <class name="Core.Test11">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Core.Test11@433defed]" started-at="2022-10-05T19:07:08 AST" name="beforeTest" finished-at="2022-10-05T19:07:13 AST" duration-ms="5735" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Core.Test11@433defed]" started-at="2022-10-05T20:04:10 AST" name="beforeTest" finished-at="2022-10-05T20:04:18 AST" duration-ms="8213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,10 +18,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="addNewBoard()[pri:0, instance:Core.Test11@433defed]" started-at="2022-10-05T19:07:13 AST" name="addNewBoard" finished-at="2022-10-05T19:07:13 AST" duration-ms="34" status="PASS">
+        <test-method signature="testMethod()[pri:0, instance:Core.Test11@433defed]" started-at="2022-10-05T20:04:18 AST" name="testMethod" finished-at="2022-10-05T20:04:18 AST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewBoard -->
+        </test-method> <!-- testMethod -->
       </class> <!-- Core.Test11 -->
     </test> <!--  test Booking site -->
   </suite> <!-- Booking  Suite -->

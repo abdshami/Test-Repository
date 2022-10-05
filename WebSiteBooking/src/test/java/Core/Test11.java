@@ -17,6 +17,7 @@ public class Test11 {
 	
 	
 	WebDriver driver;
+
 	
 	@Parameters("browser")
 	
@@ -24,7 +25,9 @@ public class Test11 {
 		public void beforeTest(String browser) throws InterruptedException  {
 			
 		      System.out.println(browser + "   khaldoun Ok" );
+		   
 		
+		      
 			  if (browser.equals("chrome")) {
 					WebDriverManager.chromedriver().setup();
 					driver = new ChromeDriver();
@@ -52,9 +55,9 @@ public class Test11 {
 	
 	
 	    @Test
-	    public void addNewBoard(){
-	        System.out.println("Test  11");
-			Assert.assertEquals("2", "2");
+	    public void testMethod(){
+	        System.out.println("yes" );
+			Assert.assertEquals(2, 2);
 		}
 	
 	   
