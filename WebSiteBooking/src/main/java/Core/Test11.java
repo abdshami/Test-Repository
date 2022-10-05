@@ -23,7 +23,7 @@ public class Test11 {
 	@BeforeTest
 		public void beforeTest(String browser) throws InterruptedException  {
 			
-		      System.out.println(browser);
+		      System.out.println(browser + "   khaldoun Ok" );
 		
 			  if (browser.equals("chrome")) {
 					WebDriverManager.chromedriver().setup();
@@ -38,8 +38,12 @@ public class Test11 {
 			 
 			  
 
+		      System.out.println("After browser 1" );
+		      
 			  driver.manage().window().maximize();
 			  driver.get("https://www.google.com");
+			  
+			  System.out.println("After browser 2" );
 			    
 		}
 		
@@ -49,7 +53,7 @@ public class Test11 {
 	
 	    @Test
 	    public void addNewBoard(){
-	        System.out.println("Test");
+	        System.out.println("Test  11");
 			Assert.assertEquals("2", "2");
 		}
 	
