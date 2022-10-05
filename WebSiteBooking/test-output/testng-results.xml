@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-05T17:12:48 AST" name="Booking  Suite" finished-at="2022-10-05T17:13:02 AST" duration-ms="13973">
+  <suite started-at="2022-10-05T18:19:59 AST" name="Booking  Suite" finished-at="2022-10-05T18:20:04 AST" duration-ms="4821">
     <groups>
     </groups>
-    <test started-at="2022-10-05T17:12:48 AST" name=" test Booking site" finished-at="2022-10-05T17:13:02 AST" duration-ms="13973">
+    <test started-at="2022-10-05T18:19:59 AST" name=" test Booking site" finished-at="2022-10-05T18:20:04 AST" duration-ms="4821">
       <class name="Core.Test11">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Core.Test11@433defed]" started-at="2022-10-05T17:12:48 AST" name="beforeTest" finished-at="2022-10-05T17:13:02 AST" duration-ms="13838" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Core.Test11@433defed]" started-at="2022-10-05T18:19:59 AST" name="beforeTest" finished-at="2022-10-05T18:20:04 AST" duration-ms="4692" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="addNewBoard()[pri:0, instance:Core.Test11@433defed]" started-at="2022-10-05T17:13:02 AST" name="addNewBoard" finished-at="2022-10-05T17:13:02 AST" duration-ms="29" status="PASS">
+        <test-method signature="addNewBoard()[pri:0, instance:Core.Test11@433defed]" started-at="2022-10-05T18:20:04 AST" name="addNewBoard" finished-at="2022-10-05T18:20:04 AST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewBoard -->
