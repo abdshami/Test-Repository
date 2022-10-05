@@ -24,18 +24,13 @@ public class Testkh {
 		public void beforeTest() throws InterruptedException  {
 			  add = new Add();   
 		      System.out.println("browser"+ "   khaldoun Ok" );  
-			  String browser = "chrome";
-		      if (browser.equals("chrome")) {
-					WebDriverManager.chromedriver().setup();
-					driver = new ChromeDriver();
-				}else if (browser.equals("firefox")) {
-					WebDriverManager.firefoxdriver().setup();
-					driver = new FirefoxDriver();
-				}else if (browser.equals("edge")) {
-					WebDriverManager.edgedriver();
-					driver = new EdgeDriver();
-				}	
 			 
+		           System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+				   driver = new ChromeDriver();
+		      
+//					WebDriverManager.chromedriver().setup();
+//					driver = new ChromeDriver();
+				
 		      System.out.println("After browser 1" );
 			  driver.manage().window().maximize();
 			  driver.get("https://www.google.com");
