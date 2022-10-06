@@ -23,15 +23,18 @@ public class Testkh {
 	@BeforeSuite
 		public void beforeSuite() throws InterruptedException  {
 			  add = new Add();   
-//		      System.out.println("browser"+ "   khaldoun Ok" );  		 
+		      System.out.println("browser"+ "   khaldoun Ok" );  		 
 //		           System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 //				   driver = new ChromeDriver();
-//		      
-//					//WebDriverManager.chromedriver().setup();
-//					//driver = new ChromeDriver();
-//			  driver.manage().window().maximize();
-//			  driver.get("https://www.google.com");
-//				
+		      
+		           driver = OpenBrowser.openchromeWithOptions();
+		           
+		      
+					//WebDriverManager.chromedriver().setup();
+					//driver = new ChromeDriver();
+			  driver.manage().window().maximize();
+			  driver.get("https://www.google.com");
+				
 		      System.out.println("beforeSuite" );
 			
 			
