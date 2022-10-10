@@ -32,6 +32,7 @@ public class OpenBrowser {
 		options.addArguments("--disable-infobars");
 
 		driver = new ChromeDriver(options);
+		System.out.println("Chrome Browser");
 		return driver;
 	}
 	
