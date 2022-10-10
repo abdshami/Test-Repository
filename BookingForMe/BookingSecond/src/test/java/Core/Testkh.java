@@ -27,7 +27,7 @@ public class Testkh {
 //		           System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 //				   driver = new ChromeDriver();
 		      
-		           driver = OpenBrowser.openFFWithOptions();
+		           driver = OpenBrowser.openchromeWithOptions();
 		           
 		      
 					//WebDriverManager.chromedriver().setup();
