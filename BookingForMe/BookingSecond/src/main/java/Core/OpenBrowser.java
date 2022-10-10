@@ -37,7 +37,7 @@ public class OpenBrowser {
 		WebDriver driver;
 		
 		System.out.println("khaldoun firefox from repo");
-		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
+		WebDriverManager.firefoxdriver().setup();
 		String downloadFilepath = "downloads";
 		File file = new File(downloadFilepath);
 		
