@@ -6,7 +6,7 @@
       <class name="Core.Testkh">
         <methods>
           <include name="testMethod"/>
-          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
         </methods>
       </class> <!-- Core.Testkh -->
     </classes>

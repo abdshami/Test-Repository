@@ -1,6 +1,4 @@
 package Core;
-
-
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -13,6 +11,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class OpenBrowser {
@@ -37,7 +37,13 @@ public class OpenBrowser {
 	
 	public static WebDriver openFFWithOptions() {
 		WebDriver driver;
-		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
+		
+		System.out.println("khaldoun firefox 1");
+		//System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
+		
+		WebDriverManager.firefoxdriver().setup();
+		//driver = new FirefoxDriver();
+		
 		String downloadFilepath = "downloads";
 		File file = new File(downloadFilepath);
 		
@@ -56,9 +62,11 @@ public class OpenBrowser {
         // Creating FirefoxOptions to set profile
         FirefoxOptions option = new FirefoxOptions();
         option.setProfile(profile);
+        option.setHeadless(true);
         // Launching browser with desired capabilities
 
 		driver = new FirefoxDriver(option);
+		System.out.println("khaldoun firefox 2");
 		return driver;
 	}
 	
@@ -89,5 +97,11 @@ public class OpenBrowser {
 		return driver;
 	}
 
-	
+//	public static void main(String[] args) throws InterruptedException, IOException {
+//		WebDriver driver = OpenBrowsers.openFFWithOptions();
+//		driver.get("https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html");
+//		TakeScreenShot takeSc = new TakeScreenShot(driver);
+//		takeSc.takeScreenShot("downloads/Test.jpg");
+//		driver.findElement(By.linkText("cities.csv")).click();
+//	}
 }
