@@ -21,32 +21,29 @@ public class Testkh {
 	 
 
 	@BeforeSuite
-		public void beforeTest() throws InterruptedException  {
+		public void beforeSuite() throws InterruptedException  {
 			  add = new Add();   
-		      System.out.println("browser"+ "   khaldoun Ok" );  
-			  String browser = "chrome";
-		      if (browser.equals("chrome")) {
-					WebDriverManager.chromedriver().setup();
-					driver = new ChromeDriver();
-				}else if (browser.equals("firefox")) {
-					WebDriverManager.firefoxdriver().setup();
-					driver = new FirefoxDriver();
-				}else if (browser.equals("edge")) {
-					WebDriverManager.edgedriver();
-					driver = new EdgeDriver();
-				}	
-			 
-		      System.out.println("After browser 1" );
+		      System.out.println("browser khaldoun Ok" );  		 
+//		           System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+//				   driver = new ChromeDriver();
+		      
+		           driver = OpenBrowser.openFFWithOptions();
+		           
+		      
+					//WebDriverManager.chromedriver().setup();
+					//driver = new ChromeDriver();
 			  driver.manage().window().maximize();
 			  driver.get("https://www.google.com");
-			  System.out.println("After browser 2" );
-			    
+				
+		      System.out.println("beforeSuite" );
+			
+			
 		}
 		
 	    @Test
 	    public void testMethod(){
-	        System.out.println("yes" );
 	        add.addNums(5, 9);
+	        System.out.println("Assert Test Method" );
 			Assert.assertEquals(2, 2);
 		}
 	
