@@ -38,17 +38,12 @@ public class OpenBrowser {
 	public static WebDriver openFFWithOptions() {
 		WebDriver driver;
 		
-<<<<<<< HEAD
 		System.out.println("khaldoun firefox 1");
 		//System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 		
 		WebDriverManager.firefoxdriver().setup();
 		//driver = new FirefoxDriver();
 		
-=======
-		System.out.println("khaldoun firefox from repo");
-		WebDriverManager.firefoxdriver().setup();
->>>>>>> 866c8beafa5c9a910d0f30fe0845aa0e8b879b3f
 		String downloadFilepath = "downloads";
 		File file = new File(downloadFilepath);
 		
@@ -78,7 +73,6 @@ public class OpenBrowser {
 	public static WebDriver openBrowser(String browser) {
 
 		WebDriver driver;
-		
 		if(browser.equals("firefox")) {
 			//Setting webdriver.gecko.driver property
 			System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
@@ -110,7 +104,4 @@ public class OpenBrowser {
 //		takeSc.takeScreenShot("downloads/Test.jpg");
 //		driver.findElement(By.linkText("cities.csv")).click();
 //	}
-<<<<<<< HEAD
 }
-=======
->>>>>>> 866c8beafa5c9a910d0f30fe0845aa0e8b879b3f
