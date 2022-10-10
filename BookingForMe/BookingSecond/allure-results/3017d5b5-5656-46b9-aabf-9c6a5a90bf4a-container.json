@@ -1,0 +1,1 @@
+{"uuid":"3017d5b5-5656-46b9-aabf-9c6a5a90bf4a","name":"BookinKh  Suite","children":["b1d821e3-3b39-46f3-a4ca-27834733c23b"],"befores":[{"name":"beforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1665427631701,"stop":1665427635551}],"afters":[],"start":1665427631685,"stop":1665427635697}

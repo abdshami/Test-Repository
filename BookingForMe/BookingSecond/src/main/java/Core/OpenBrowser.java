@@ -39,7 +39,7 @@ public class OpenBrowser {
 		WebDriver driver;
 		
 		System.out.println("khaldoun firefox 1");
-		//System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver");
 		
 		WebDriverManager.firefoxdriver().setup();
 		//driver = new FirefoxDriver();
