@@ -1,6 +1,4 @@
 package Core;
-
-
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -37,6 +35,8 @@ public class OpenBrowser {
 	
 	public static WebDriver openFFWithOptions() {
 		WebDriver driver;
+		
+		System.out.println("khaldoun firefox from repo");
 		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 		String downloadFilepath = "downloads";
 		File file = new File(downloadFilepath);
@@ -56,6 +56,7 @@ public class OpenBrowser {
         // Creating FirefoxOptions to set profile
         FirefoxOptions option = new FirefoxOptions();
         option.setProfile(profile);
+        option.setHeadless(true);
         // Launching browser with desired capabilities
 
 		driver = new FirefoxDriver(option);
@@ -65,6 +66,7 @@ public class OpenBrowser {
 	public static WebDriver openBrowser(String browser) {
 
 		WebDriver driver;
+		
 		if(browser.equals("firefox")) {
 			//Setting webdriver.gecko.driver property
 			System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
@@ -89,5 +91,10 @@ public class OpenBrowser {
 		return driver;
 	}
 
-	
-}
+//	public static void main(String[] args) throws InterruptedException, IOException {
+//		WebDriver driver = OpenBrowsers.openFFWithOptions();
+//		driver.get("https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html");
+//		TakeScreenShot takeSc = new TakeScreenShot(driver);
+//		takeSc.takeScreenShot("downloads/Test.jpg");
+//		driver.findElement(By.linkText("cities.csv")).click();
+//	}
