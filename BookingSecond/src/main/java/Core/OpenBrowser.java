@@ -35,6 +35,8 @@ public class OpenBrowser {
 	
 	public static WebDriver openFFWithOptions() {
 		WebDriver driver;
+		
+		System.out.println("khaldoun firefox");
 		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 		String downloadFilepath = "downloads";
 		File file = new File(downloadFilepath);
@@ -89,7 +91,7 @@ public class OpenBrowser {
 	}
 
 //	public static void main(String[] args) throws InterruptedException, IOException {
-//		WebDriver driver = OpenBrowser.openFFWithOptions();
+//		WebDriver driver = OpenBrowsers.openFFWithOptions();
 //		driver.get("https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html");
 //		TakeScreenShot takeSc = new TakeScreenShot(driver);
 //		takeSc.takeScreenShot("downloads/Test.jpg");
