@@ -1,1 +1,0 @@
-{"uuid":"2b484dbd-9402-4da5-a293-fe1103283b2e","name":"Hotels reserve Suite","children":["cd00c69e-c8cc-4396-b28d-a210af5fa0c5"],"befores":[{"name":"BeforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1665616113067,"stop":1665616116254}],"afters":[],"start":1665616113047,"stop":1665616273811}
