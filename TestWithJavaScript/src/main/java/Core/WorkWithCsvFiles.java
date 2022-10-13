@@ -10,25 +10,6 @@ import com.opencsv.*;
 		
 public class WorkWithCsvFiles{
     
-//    public static List<String[]> readDataFromCsvFile(String file){
-//	ArrayList<String[]> testCases = new  ArrayList<String[]>();
-//		    try {
-//		        FileReader filereader = new FileReader(file);
-//		        CSVReader csvReader = new CSVReader(filereader);
-//		        String[] record;
-//		        while ((record = csvReader.readNext()) != null) {	
-//		        	testCases.add(record);
-//		        }
-//		        csvReader.close();
-//		    }
-//		    catch (Exception e) {
-//		        e.printStackTrace();
-//		    }
-//		    return testCases;
-//		}
-    
-    
-    
     public static List<String[]> readDataFromCsvFile(String filePath) throws Exception {
 		CSVReader reader = new CSVReader(new FileReader(filePath), ',');
 
@@ -43,11 +24,7 @@ public class WorkWithCsvFiles{
 		reader.close();
 		return data;
 	}
-	
-    
-    
-    
-	
+
 	public static String writeToCsvFile(String filePath , List<String[]> data){
 		     ArrayList<String[]> newData = (ArrayList<String[]>) data;
 		    File file = new File(filePath);
@@ -63,5 +40,33 @@ public class WorkWithCsvFiles{
 		    }
 		    return filePath;
 		}
+	
+	public static void writeDataLineByLine(String filePath, List<String[]> data, String[] headers)
+	{
+	   
+	    File file = new File(filePath);
+	    try {
+	        FileWriter outputfile = new FileWriter(file);
+	        CSVWriter writer = new CSVWriter(outputfile);
+	  
+	        writer.writeNext(headers);
+	        for(String[] line: data) {
+		        writer.writeNext(line);
+	        }
+	        // closing writer connection
+	        writer.close();
+	    }
+	    catch (IOException e) {
+	        // TODO Auto-generated catch block
+	        e.printStackTrace();
+	    }
+	}
+	
+	
     }
+
+
+
+
+
 	

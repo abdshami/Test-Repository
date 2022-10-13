@@ -6,8 +6,9 @@
     <classes>
       <class name="Core.TestHotelsReservation">
         <methods>
-          <include name="testCsvDataString" invocation-numbers="0 1"/>
+          <include name="testCsvDataString" invocation-numbers="0 1 2"/>
           <include name="BeforeMethod"/>
+          <include name="afterSuite"/>
           <include name="BeforeSuite"/>
         </methods>
       </class> <!-- Core.TestHotelsReservation -->

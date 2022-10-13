@@ -18,9 +18,6 @@ public class HotelsPage {
 	public void firstChoiseHotel() throws InterruptedException {
 		WebElement hotelLink = driver.findElement(By.xpath("//div[@class='hotels-inner']//a"));
 		String nextUrl = hotelLink.getAttribute("href");
-		//js.executeScript("arguments[0].click();", hotelLink);
-		//Thread.sleep(15000);
 		driver.get(nextUrl);
-		
 	}
 }

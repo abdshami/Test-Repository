@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-13T12:59:07 IDT" name="Default suite" finished-at="2022-10-13T13:01:41 IDT" duration-ms="154523">
+  <suite started-at="2022-10-13T19:54:43 IDT" name="Default suite" finished-at="2022-10-13T19:57:20 IDT" duration-ms="156142">
     <groups>
     </groups>
-    <test started-at="2022-10-13T12:59:07 IDT" name="Default test" finished-at="2022-10-13T13:01:41 IDT" duration-ms="154523">
+    <test started-at="2022-10-13T19:54:43 IDT" name="Default test" finished-at="2022-10-13T19:57:20 IDT" duration-ms="156142">
       <class name="Core.TestHotelsReservation">
-        <test-method is-config="true" signature="BeforeSuite(java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T12:59:05 IDT" name="BeforeSuite" finished-at="2022-10-13T12:59:07 IDT" duration-ms="1613" status="PASS">
+        <test-method is-config="true" signature="BeforeSuite(java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T19:54:42 IDT" name="BeforeSuite" finished-at="2022-10-13T19:54:43 IDT" duration-ms="1688" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T12:59:07 IDT" name="BeforeMethod" finished-at="2022-10-13T12:59:18 IDT" duration-ms="11666" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T19:54:43 IDT" name="BeforeMethod" finished-at="2022-10-13T19:54:55 IDT" duration-ms="11698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T12:59:18 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T13:00:01 IDT" duration-ms="42741" status="PASS">
+        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T19:54:55 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T19:55:37 IDT" duration-ms="41819" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,15 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCsvDataString -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T13:00:01 IDT" name="BeforeMethod" finished-at="2022-10-13T13:00:12 IDT" duration-ms="10967" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T19:55:37 IDT" name="BeforeMethod" finished-at="2022-10-13T19:55:48 IDT" duration-ms="10949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T13:00:12 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T13:00:51 IDT" duration-ms="38901" status="PASS">
+        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T19:55:48 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T19:56:28 IDT" duration-ms="40411" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Jordan]]>
+                <![CDATA[New York]]>
               </value>
             </param>
             <param index="1">
@@ -68,11 +68,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCsvDataString -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T13:00:51 IDT" name="BeforeMethod" finished-at="2022-10-13T13:01:02 IDT" duration-ms="10918" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T19:56:28 IDT" name="BeforeMethod" finished-at="2022-10-13T19:56:39 IDT" duration-ms="11000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T13:01:02 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T13:01:41 IDT" duration-ms="39215" status="PASS">
+        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T19:56:39 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T19:57:20 IDT" duration-ms="40147" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,6 +93,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCsvDataString -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T19:57:20 IDT" name="afterSuite" finished-at="2022-10-13T19:57:20 IDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
       </class> <!-- Core.TestHotelsReservation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

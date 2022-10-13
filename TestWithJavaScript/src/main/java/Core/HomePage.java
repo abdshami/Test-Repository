@@ -26,12 +26,10 @@ public class HomePage {
 		property.sendKeys(location);
 		Thread.sleep(3000);
 		List<WebElement>  options = driver.findElements(By.xpath("//div[@class='Suggest_destinationTitle__1lMnV']"));
-		System.out.println("size " + options.size());
 		if(options.size() > 0) {
 				for(WebElement loc : options) {
 					String text = (String) js.executeScript(" return arguments[0].innerText;", loc);
 					if(text.contains(location)) {
-						System.out.println("yes " + text);
 						js.executeScript("arguments[0].value = '" + text + "';", property);
 						Thread.sleep(3000);
 						property.sendKeys(Keys.ENTER);
