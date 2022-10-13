@@ -28,10 +28,10 @@ public class OpenBrowser {
 		chromePrefs.put("profile.default_content_settings.popups", 0);
 		chromePrefs.put("download.default_directory", file.getAbsolutePath());
 		ChromeOptions options = new ChromeOptions();
-	//	options.setExperimentalOption("prefs", chromePrefs);
-	//	options.addArguments("--start-maximized");
-	//	options.addArguments("--headless");
-	//	options.addArguments("--disable-infobars");
+		options.setExperimentalOption("prefs", chromePrefs);
+		options.addArguments("--start-maximized");
+		options.addArguments("--headless");
+		options.addArguments("--disable-infobars");
 
 		driver = new ChromeDriver(options);
 		System.out.println("Chrome Browser");
