@@ -98,11 +98,5 @@ public class OpenBrowser {
 		return driver;
 	}
 
-//	public static void main(String[] args) throws InterruptedException, IOException {
-//		WebDriver driver = OpenBrowsers.openFFWithOptions();
-//		driver.get("https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html");
-//		TakeScreenShot takeSc = new TakeScreenShot(driver);
-//		takeSc.takeScreenShot("downloads/Test.jpg");
-//		driver.findElement(By.linkText("cities.csv")).click();
-//	}
+
 }

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-13T12:59:07 IDT" name="Default suite" finished-at="2022-10-13T13:01:41 IDT" duration-ms="154523">
+    <groups>
+    </groups>
+    <test started-at="2022-10-13T12:59:07 IDT" name="Default test" finished-at="2022-10-13T13:01:41 IDT" duration-ms="154523">
+      <class name="Core.TestHotelsReservation">
+        <test-method is-config="true" signature="BeforeSuite(java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T12:59:05 IDT" name="BeforeSuite" finished-at="2022-10-13T12:59:07 IDT" duration-ms="1613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testCasesHotels.csv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T12:59:07 IDT" name="BeforeMethod" finished-at="2022-10-13T12:59:18 IDT" duration-ms="11666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T12:59:18 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T13:00:01 IDT" duration-ms="42741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Oct 22 2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Oct 29 2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCsvDataString -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T13:00:01 IDT" name="BeforeMethod" finished-at="2022-10-13T13:00:12 IDT" duration-ms="10967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T13:00:12 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T13:00:51 IDT" duration-ms="38901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jordan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Oct 24 2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Oct 27 2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCsvDataString -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T13:00:51 IDT" name="BeforeMethod" finished-at="2022-10-13T13:01:02 IDT" duration-ms="10918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6c284af]" started-at="2022-10-13T13:01:02 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T13:01:41 IDT" duration-ms="39215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Egypt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Oct 26 2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Oct 28 2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCsvDataString -->
+      </class> <!-- Core.TestHotelsReservation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

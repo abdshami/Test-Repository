@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > 
+
+<suite name="Hotels reserve Suite" >
+  <parameter name="csvfilePath"  value="testCasesHotels.csv"/>
+ <test name=" hotels test" >
+    <classes>
+       <class name="Core.TestHotelsReservation" />
+    </classes>
+  </test>
+</suite>
+   
+      
