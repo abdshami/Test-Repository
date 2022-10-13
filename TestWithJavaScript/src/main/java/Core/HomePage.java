@@ -49,7 +49,7 @@ public class HomePage {
 				js.executeScript("arguments[0].innerText = '" + chkOut + "';", ChkOut);
 				Thread.sleep(2000);
 		}else {
-			System.out.println("There is no results");
+			//System.out.println("There is no results");
 		}
 		WebElement searchBtn = driver.findElement(By.xpath("//button[@data-testid='search-button']"));
 		js.executeScript("arguments[0].click();", searchBtn);

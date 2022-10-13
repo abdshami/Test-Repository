@@ -58,10 +58,10 @@ public class TestHotelsReservation {
 		for(String[] line : lines) {
 			data[i]  = line;
 		    i++; 
-		   for(String  s :  line) {
-			   System.out.print(s + "  ");
-		   }
-		   System.out.println();
+//		   for(String  s :  line) {
+//			   System.out.print(s + "  ");
+//		   }
+		  // System.out.println();
 		}
 		return data;
 	}
@@ -79,10 +79,10 @@ public class TestHotelsReservation {
 		SelectedHotelPage selectedHotelPage = new SelectedHotelPage(driver,js);
 		pageInfo = selectedHotelPage.getPageInfo();
 		takeShot.takeScreenShot(".//src//test//resources//"+ pageInfo[0] + "hotel Image.png");
-		System.out.println(" pageInfo : ");
-		for( String str : pageInfo) {
-			System.out.println(str);
-		}
+		//System.out.println(" pageInfo : ");
+//		for( String str : pageInfo) {
+//			System.out.println(str);
+//		}
        if (pageInfo[0] != null) {
 		        rawInfo[0] = pageInfo[0];
 				rawInfo[1] = pageInfo[1];
@@ -97,7 +97,7 @@ public class TestHotelsReservation {
 				rawInfo[3] = "Null";
 				rawInfo[4] = "Null";
 				rawInfo[5] = "Null";
-	    	    System.out.println("There is no hotel data - sorry");
+	    	   // System.out.println("There is no hotel data - sorry");
        }
        hotelsInfo.add(rawInfo);
 	}

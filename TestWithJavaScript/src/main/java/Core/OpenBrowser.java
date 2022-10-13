@@ -40,7 +40,7 @@ public class OpenBrowser {
 	
 	public static WebDriver openFFWithOptions() {
 		WebDriver driver;
-		System.out.println("khaldoun firefox 1");
+		//System.out.println("khaldoun firefox 1");
 		//System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver");
 		WebDriverManager.firefoxdriver().setup();
 		
@@ -66,7 +66,7 @@ public class OpenBrowser {
         // Launching browser with desired capabilities
 
 		driver = new FirefoxDriver(option);
-		System.out.println("khaldoun firefox 2");
+		//System.out.println("khaldoun firefox 2");
 		return driver;
 	}
 	
