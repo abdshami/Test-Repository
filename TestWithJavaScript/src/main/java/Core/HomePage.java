@@ -24,7 +24,7 @@ public class HomePage {
 		
 		WebElement property  = driver.findElement(By.xpath("//input[@data-testid = 'destination-input']"));
 		property.sendKeys(location);
-		Thread.sleep(3000);
+		Thread.sleep(8000);
 		List<WebElement>  options = driver.findElements(By.xpath("//div[@class='Suggest_destinationTitle__1lMnV']"));
 		if(options.size() > 0) {
 				for(WebElement loc : options) {
@@ -36,18 +36,18 @@ public class HomePage {
 						break;
 					}
 				}
-				Thread.sleep(2000);
+				Thread.sleep(4000);
 				WebElement ChkIn  = driver.findElement(By.xpath("//div[@data-testid = 'date-start-input']"));
 				WebElement ChkOut  = driver.findElement(By.xpath("//div[@data-testid = 'date-end-input']"));
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 				js.executeScript("arguments[0].click();", ChkIn);
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 				js.executeScript("arguments[0].innerText = '" + chkIn + "';", ChkIn);
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 				js.executeScript("arguments[0].click();", ChkOut);
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 				js.executeScript("arguments[0].innerText = '" + chkOut + "';", ChkOut);
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 		}else {
 			System.out.println("There is no results");
 		}

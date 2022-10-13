@@ -28,7 +28,7 @@ public class TestHotelsReservation {
 	public void BeforeSuite(String csvfilePath){
 		hotelsInfo = new ArrayList<String[]>();	
 		TestHotelsReservation.csvfilePath = csvfilePath;
-		driver = OpenBrowser.openchromeWithOptions();
+		driver = OpenBrowser.openFFWithOptions();
 		driver.manage().window().maximize();
 		takeShot = new TakeScreenShot(driver);
 		headers = new String[6];

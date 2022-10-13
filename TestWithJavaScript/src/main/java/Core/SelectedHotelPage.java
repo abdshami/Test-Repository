@@ -19,7 +19,7 @@ public class SelectedHotelPage {
 	
 	public String[] getPageInfo() throws InterruptedException {
 		String[] pageInfo = new String[3];
-		Thread.sleep(6000);
+		Thread.sleep(8000);
 		String url = driver.getCurrentUrl();
 		Thread.sleep(8000);
 		WebElement  rating = driver.findElement(By.xpath("//p[@class='zenroomspageperks-rating-info-total-description']"));	
