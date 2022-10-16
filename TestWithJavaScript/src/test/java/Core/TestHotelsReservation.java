@@ -64,10 +64,6 @@ public class TestHotelsReservation {
 		for(String[] line : lines) {
 			data[i]  = line;
 		    i++; 
-//		   for(String  s :  line) {
-//			   System.out.print(s + "  ");
-//		   }
-		  // System.out.println();
 		}
 		return data;
 	}
@@ -81,29 +77,29 @@ public class TestHotelsReservation {
 		String[] rawInfo = new String[6];
 		HomePage homePage = new HomePage(driver,js);
 		homePage.reserveInfo(location,chkIn,chkOut);
-//		HotelsPage hotelsPage = new HotelsPage(driver,js);
-//		hotelsPage.firstChoiseHotel();
-//		SelectedHotelPage selectedHotelPage = new SelectedHotelPage(driver,js);
-//		pageInfo = selectedHotelPage.getPageInfo();
-//		takeShot.takeScreenShot(".//src//test//resources//"+ pageInfo[0] + "hotel Image.png");
-//
-//       if (pageInfo[0] != null) {
-//		        rawInfo[0] = pageInfo[0];
-//				rawInfo[1] = pageInfo[1];
-//				rawInfo[2] = pageInfo[2];
-//				rawInfo[3] = location;
-//				rawInfo[4] = chkIn;
-//				rawInfo[5] = chkOut;
-//       }else {
-//	    	    rawInfo[0] = "Null";
-//				rawInfo[1] = "Null";
-//				rawInfo[2] = "Null";
-//				rawInfo[3] = "Null";
-//				rawInfo[4] = "Null";
-//				rawInfo[5] = "Null";
-//	    	    System.out.println("There is no hotel data - sorry");
-//       }
-//       hotelsInfo.add(rawInfo);
+		HotelsPage hotelsPage = new HotelsPage(driver,js);
+		hotelsPage.firstChoiseHotel();
+		SelectedHotelPage selectedHotelPage = new SelectedHotelPage(driver,js);
+		pageInfo = selectedHotelPage.getPageInfo();
+		takeShot.takeScreenShot(".//src//test//resources//"+ pageInfo[0] + "hotel Image.png");
+
+       if (pageInfo[0] != null) {
+		        rawInfo[0] = pageInfo[0];
+				rawInfo[1] = pageInfo[1];
+				rawInfo[2] = pageInfo[2];
+				rawInfo[3] = location;
+				rawInfo[4] = chkIn;
+				rawInfo[5] = chkOut;
+       }else {
+	    	    rawInfo[0] = "Null";
+				rawInfo[1] = "Null";
+				rawInfo[2] = "Null";
+				rawInfo[3] = "Null";
+				rawInfo[4] = "Null";
+				rawInfo[5] = "Null";
+	    	    System.out.println("There is no hotel data - sorry");
+       }
+       hotelsInfo.add(rawInfo);
 	}
 
 	@AfterSuite
