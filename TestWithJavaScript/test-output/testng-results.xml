@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-13T22:50:00 IDT" name="Hotels reserve Suite" finished-at="2022-10-13T22:53:39 IDT" duration-ms="218927">
+  <suite started-at="2022-10-16T23:24:05 IDT" name="Hotels reserve Suite" finished-at="2022-10-16T23:26:44 IDT" duration-ms="158689">
     <groups>
     </groups>
-    <test started-at="2022-10-13T22:50:00 IDT" name=" hotels test" finished-at="2022-10-13T22:53:39 IDT" duration-ms="218927">
+    <test started-at="2022-10-16T23:24:05 IDT" name=" hotels test" finished-at="2022-10-16T23:26:44 IDT" duration-ms="158689">
       <class name="Core.TestHotelsReservation">
-        <test-method is-config="true" signature="BeforeSuite(java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T22:49:55 IDT" name="BeforeSuite" finished-at="2022-10-13T22:50:00 IDT" duration-ms="4689" status="PASS">
+        <test-method is-config="true" signature="BeforeSuite(java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-16T23:24:03 IDT" name="BeforeSuite" finished-at="2022-10-16T23:24:05 IDT" duration-ms="2411" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T22:50:00 IDT" name="BeforeMethod" finished-at="2022-10-13T22:50:12 IDT" duration-ms="12341" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-16T23:24:05 IDT" name="BeforeMethod" finished-at="2022-10-16T23:24:17 IDT" duration-ms="11985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T22:50:12 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T22:51:14 IDT" duration-ms="61653" status="PASS">
+        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-16T23:24:17 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-16T23:24:59 IDT" duration-ms="41679" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,11 +43,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCsvDataString -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T22:51:14 IDT" name="BeforeMethod" finished-at="2022-10-13T22:51:25 IDT" duration-ms="10951" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-16T23:24:59 IDT" name="BeforeMethod" finished-at="2022-10-16T23:25:10 IDT" duration-ms="10995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T22:51:25 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T22:52:26 IDT" duration-ms="61338" status="PASS">
+        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-16T23:25:10 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-16T23:25:51 IDT" duration-ms="41529" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,11 +68,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCsvDataString -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T22:52:26 IDT" name="BeforeMethod" finished-at="2022-10-13T22:52:37 IDT" duration-ms="11139" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-16T23:25:51 IDT" name="BeforeMethod" finished-at="2022-10-16T23:26:02 IDT" duration-ms="10938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T22:52:37 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-13T22:53:39 IDT" duration-ms="61346" status="PASS">
+        <test-method signature="testCsvDataString(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-16T23:26:02 IDT" name="testCsvDataString" data-provider="getCsvData" finished-at="2022-10-16T23:26:44 IDT" duration-ms="41444" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCsvDataString -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-13T22:53:39 IDT" name="afterSuite" finished-at="2022-10-13T22:53:39 IDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Core.TestHotelsReservation@6440112d]" started-at="2022-10-16T23:26:44 IDT" name="afterSuite" finished-at="2022-10-16T23:26:44 IDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
