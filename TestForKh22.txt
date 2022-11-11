@@ -1,0 +1,3 @@
+Car mercedes false red 7 4 mercedes
+Car Dauo false green 3 4 Dauo
+Plane helokapter true green 3 4 helokapter

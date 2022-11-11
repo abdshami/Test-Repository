@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test All">
+   <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.onlinestore.testcases.ShippingAddressPageTest"/>
+      <class name="com.onlinestore.testcases.HomePageTest"/>
+      <class name="com.onlinestore.testcases.ShoppingCartPageTest"/>
+      <class name="com.onlinestore.testcases.AddToCartPageTest"/>
+      <class name="com.onlinestore.testcases.SearchResultPageTest"/>
+      <class name="com.onlinestore.testcases.AccountCreationPageTest"/>
+      <class name="com.onlinestore.testcases.LoginPageTest"/>
+      <class name="com.onlinestore.testcases.PaymentPageTest"/>
+      <class name="com.onlinestore.testcases.IndexPageTest"/>
+      <class name="com.onlinestore.testcases.EndToEndTest"/>
+    </classes>
+  </test> <!-- Test All -->
+</suite> <!-- Suite -->
